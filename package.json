@@ -1,11 +1,12 @@
 {
-  "name": "site",
+  "name": "ssmolinski9.github.io",
   "version": "1.0.1",
   "private": true,
   "scripts": {
-    "serve": "site/node_modules/.bin/vue-cli-service serve",
-    "build": "site/node_modules/.bin/vue-cli-service build",
-    "lint": "site/node_modules/.bin/vue-cli-service lint"
+    "serve": "node_modules/.bin/vue-cli-service serve",
+    "build": "node_modules/.bin/vue-cli-service build",
+    "lint": "node_modules/.bin/vue-cli-service lint",
+    "deploy": "sh deploy.sh"
   },
   "dependencies": {
     "bootstrap": "^4.5.3",
